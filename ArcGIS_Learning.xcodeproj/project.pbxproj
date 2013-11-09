@@ -19,6 +19,16 @@
 		BBC03AA217F36BB400DE4282 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC03AA017F36BB400DE4282 /* MainStoryboard_iPhone.storyboard */; };
 		BBC03AA517F36BB400DE4282 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC03AA317F36BB400DE4282 /* MainStoryboard_iPad.storyboard */; };
 		BBC03AA817F36BB400DE4282 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC03AA717F36BB400DE4282 /* ViewController.m */; };
+		BBC03AAF17F36C7100DE4282 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03AAE17F36C7100DE4282 /* CoreLocation.framework */; };
+		BBC03AB117F36C7800DE4282 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03AB017F36C7800DE4282 /* CoreText.framework */; };
+		BBC03AB317F36C8300DE4282 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03AB217F36C8300DE4282 /* libc++.dylib */; };
+		BBC03AB517F36C9200DE4282 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03AB417F36C9200DE4282 /* libz.dylib */; };
+		BBC03AB717F36C9600DE4282 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03AB617F36C9600DE4282 /* QuartzCore.framework */; };
+		BBC03AB917F36C9D00DE4282 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03AB817F36C9D00DE4282 /* MediaPlayer.framework */; };
+		BBC03ABB17F36CA300DE4282 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03ABA17F36CA300DE4282 /* MobileCoreServices.framework */; };
+		BBC03ABD17F36CA900DE4282 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03ABC17F36CA900DE4282 /* OpenGLES.framework */; };
+		BBC03ABF17F36CAE00DE4282 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC03ABE17F36CAE00DE4282 /* Security.framework */; };
+		BBC03ACD17F3A69000DE4282 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BBC03ACC17F3A69000DE4282 /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +49,16 @@
 		BBC03AA417F36BB400DE4282 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		BBC03AA617F36BB400DE4282 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BBC03AA717F36BB400DE4282 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBC03AAE17F36C7100DE4282 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BBC03AB017F36C7800DE4282 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BBC03AB217F36C8300DE4282 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		BBC03AB417F36C9200DE4282 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BBC03AB617F36C9600DE4282 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBC03AB817F36C9D00DE4282 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BBC03ABA17F36CA300DE4282 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BBC03ABC17F36CA900DE4282 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BBC03ABE17F36CAE00DE4282 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BBC03ACC17F3A69000DE4282 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +66,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC03ABF17F36CAE00DE4282 /* Security.framework in Frameworks */,
+				BBC03ABD17F36CA900DE4282 /* OpenGLES.framework in Frameworks */,
+				BBC03ABB17F36CA300DE4282 /* MobileCoreServices.framework in Frameworks */,
+				BBC03AB917F36C9D00DE4282 /* MediaPlayer.framework in Frameworks */,
+				BBC03AB717F36C9600DE4282 /* QuartzCore.framework in Frameworks */,
+				BBC03AB517F36C9200DE4282 /* libz.dylib in Frameworks */,
+				BBC03AB317F36C8300DE4282 /* libc++.dylib in Frameworks */,
+				BBC03AB117F36C7800DE4282 /* CoreText.framework in Frameworks */,
+				BBC03AAF17F36C7100DE4282 /* CoreLocation.framework in Frameworks */,
 				BBC03A8917F36BB400DE4282 /* UIKit.framework in Frameworks */,
 				BBC03A8B17F36BB400DE4282 /* Foundation.framework in Frameworks */,
 				BBC03A8D17F36BB400DE4282 /* CoreGraphics.framework in Frameworks */,
@@ -75,9 +104,19 @@
 		BBC03A8717F36BB400DE4282 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BBC03A8817F36BB400DE4282 /* UIKit.framework */,
-				BBC03A8A17F36BB400DE4282 /* Foundation.framework */,
+				BBC03ACC17F3A69000DE4282 /* ArcGIS.bundle */,
 				BBC03A8C17F36BB400DE4282 /* CoreGraphics.framework */,
+				BBC03AAE17F36C7100DE4282 /* CoreLocation.framework */,
+				BBC03AB017F36C7800DE4282 /* CoreText.framework */,
+				BBC03A8A17F36BB400DE4282 /* Foundation.framework */,
+				BBC03AB217F36C8300DE4282 /* libc++.dylib */,
+				BBC03AB417F36C9200DE4282 /* libz.dylib */,
+				BBC03AB817F36C9D00DE4282 /* MediaPlayer.framework */,
+				BBC03ABA17F36CA300DE4282 /* MobileCoreServices.framework */,
+				BBC03ABC17F36CA900DE4282 /* OpenGLES.framework */,
+				BBC03AB617F36C9600DE4282 /* QuartzCore.framework */,
+				BBC03ABE17F36CAE00DE4282 /* Security.framework */,
+				BBC03A8817F36BB400DE4282 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,6 +206,7 @@
 				BBC03A9F17F36BB400DE4282 /* Default-568h@2x.png in Resources */,
 				BBC03AA217F36BB400DE4282 /* MainStoryboard_iPhone.storyboard in Resources */,
 				BBC03AA517F36BB400DE4282 /* MainStoryboard_iPad.storyboard in Resources */,
+				BBC03ACD17F3A69000DE4282 /* ArcGIS.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +312,18 @@
 		BBC03AAC17F36BB400DE4282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArcGIS_Learning/ArcGIS_Learning-Prefix.pch";
 				INFOPLIST_FILE = "ArcGIS_Learning/ArcGIS_Learning-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,10 +331,18 @@
 		BBC03AAD17F36BB400DE4282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArcGIS_Learning/ArcGIS_Learning-Prefix.pch";
 				INFOPLIST_FILE = "ArcGIS_Learning/ArcGIS_Learning-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -310,6 +366,7 @@
 				BBC03AAD17F36BB400DE4282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
